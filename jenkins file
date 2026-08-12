@@ -1,4 +1,4 @@
- pipeline {
+s pipeline {
 agent any
 stages {
 stage('compile') {
