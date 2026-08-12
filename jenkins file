@@ -8,7 +8,7 @@ sh 'java hello.java'
 }
 stage('run') {
 steps {
-sh 'java addition'
+sh 'java hello'
 }
 }
 }
