@@ -3,7 +3,7 @@ agent any
 stages {
 stage('compile') {
 steps {
-sh 'java addition.java'
+sh 'java hello.java'
 }
 }
 stage('run') {
